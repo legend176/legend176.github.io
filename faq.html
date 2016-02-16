@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+  <meta charset="utf-8">
+
+  <title>经典传奇 - FAQ</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="The HTML5 Homepage">
+  <meta name="author" content="Don">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap theme -->
+  <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+  <style type="text/css">
+  pre {margin-top:10px; font-weight:bold;}
+  </style>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container theme-showcase" role="main">
+<pre>常见问题</pre>
+<hr />
+<h3><a href="index.html">回首页</a></h3>
+<h3>客户端问题</h3>
+<ol>
+  <li>
+    <div>
+    <h4>进入游戏出现ImgArr=nil提示的解决办法</h4>
+    <p>在网上搜索了一下，发现真的有不少的朋友们在架设好服务端后，登陆器也是配套的，但注册帐号也是成功的，但点击进入游戏，就出现了ImgArr=nil的提示，点击确定后，就自动退出来了，这是什么问题呢？</p>
+    <p>
+    第一个可能就是热血传奇客户端被破坏、不完整等，我把传奇私服客户端2011的版本的下载地址给他了，因为他架设的这个版本是HERO引擎的，这个引擎的默认登陆器只支持2011的版本。
+    下载安装好了以后，还是不行，然后要远程，在远程中，我发现他没有把HERO登陆器放在这个2011版本的客户端里，从新放了一下，登录游戏，没有在出现任何的错误，解决了传奇私服出现ImgArr = nil的提示。通过上面的方法，我们知道了，问题出在客户端上面，要么就是客户端文件不完整或者客户端版本不支持该登陆器出现的，解决的方法就是从新下载热血传奇客户端。
+    </p>
+    </li>
+</ol>
+<h3>有更多问题请留言</h3>
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//legendofmir.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+</body>
+</html>

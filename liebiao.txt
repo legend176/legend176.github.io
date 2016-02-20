@@ -1,0 +1,30 @@
+[Server]
+经典传奇|展开=1;
+传奇|legend.wha.la|7000=https://legend176.github.io|dun=5555
+
+
+[Web]
+官方网站=https://legend176.github.io
+游戏充值=https://legend176.github.io
+游戏论坛=https://legend176.github.io
+窗口公告=https://legend176.github.io
+[map]
+mir=0
+[Control]
+多开限制=3
+下载进游戏=0
+弹窗地址=https://legend176.github.io
+;机器码的网站=http://www.HeroM2.com/jiqima.txt
+色位顺序=0
+;色位顺序 0=800x600  1=1024x768
+全屏绘图=1  ;（1=开启，0=关闭）全屏绘图开启后底部无黑条，修改主操作UI，可以实现剑侠界面效果。
+编辑游戏=0 ;登录器下面的关闭按钮 =0，允许编辑  =1，关闭登录器
+
+[PatchUpdate]
+;http://127.0.0.1/Data.rar=Data.rar
+
+[MustUpdate]
+;http://127.0.0.1/Data.rar=Data.rar
+[DlqUpdate]
+;DlqVer=1.01
+;DlqUrl=http://127.0.0.1/game.exe

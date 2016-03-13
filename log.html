@@ -12,21 +12,61 @@
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Bootstrap theme -->
   <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-  <style type="text/css">
-  pre {margin-top:10px; font-weight:bold;}
-  </style>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link href="css/carousel.css" rel="stylesheet">
+  <style>
+  .navbar-wrapper {
+    position:static;
+    margin-top: 20px;
+  }
+  </style>
 </head>
 
 <body>
+  <!-- NAVBAR
+  ================================================== -->
+  <div class="navbar-wrapper">
+    <div class="container">
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./">经典传奇</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="./">首页</a></li>
+              <li><a href="stditem.html">物品装备</a></li>
+              <li class="active"><a href="log.html">更新日志</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">下载 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">游戏客户端</a></li>
+                  <li><a href="#">登陆器</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">游戏补丁</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
 <div class="container theme-showcase" role="main">
-<pre>更新日志</pre>
-<hr />
-<h3><a href="index.html">回首页</a></h3>
+<h3>2016-03-13</h3>
+<ol>
+  <li>更新网站，增加记忆套介绍，出处和暴率。</li>
+</ol>
 <h3>2016-03-12</h3>
 <ol>
   <li>记忆传送地图调整，以下地图开放传送：去赤月魔穴的山谷秘道、祖玛六层大厅、猪六以牛五。</li>

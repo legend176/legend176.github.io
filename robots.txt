@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /*.md$
+Disallow: /list/
+Disallow: /*.js$
+Disallow: /*.inc$
+Disallow: /*.css$
+Disallow: /CNAME$

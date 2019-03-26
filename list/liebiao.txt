@@ -13,7 +13,6 @@ mir=0
 多开限制=3
 下载进游戏=0
 弹窗地址=https://jdcq176.cn
-机器码的网站=http://www.HeroM2.com/jiqima.txt
 色位顺序=0
 ;色位顺序 0=800x600  1=1024x768
 全屏绘图=0  ;（1=开启，0=关闭）全屏绘图开启后底部无黑条，修改主操作UI，可以实现剑侠界面效果。
@@ -21,8 +20,6 @@ mir=0
 刷新列表=1   ;1表示关闭游戏弹出登录器重新读取列表，0表示不重新读取列表,默认不刷新
 
 [PatchUpdate]
-;http://ys-c.ys168.com/609502357/V4tNVTm4T467I268NJV/Wav.rar=Wav.rar
-http://ys-f.ys168.com/609502337/U6wISkk3V383J663KOH/Wav.rar=Wav.rar
 
 [MustUpdate]
 ;http://127.0.0.1/Data.rar=Data.rar

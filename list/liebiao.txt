@@ -22,7 +22,7 @@ mir=0
 
 [PatchUpdate]
 ;http://ys-c.ys168.com/609502357/V4tNVTm4T467I268NJV/Wav.rar=Wav.rar
-http://ys-f.ys168.com/609502327/S7uMRSm4T467I26KJMVJ/Wav.rar=Wav.rar
+http://ys-f.ys168.com/609502337/U6wISkk3V383J663KOH/Wav.rar=Wav.rar
 
 [MustUpdate]
 ;http://127.0.0.1/Data.rar=Data.rar

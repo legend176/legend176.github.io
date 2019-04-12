@@ -9,15 +9,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow" />
   <!-- Bootstrap -->
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   <!-- Bootstrap theme -->
-  <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css" rel="stylesheet">
   <link rel="alternate" hreflang="zh-Hant" href="https://jdcq176.cn" />
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -38,35 +35,30 @@
 </head>
 
 <body style="font-size: 20px;">
-  <!-- NAVBAR
-  ================================================== -->
   <div class="navbar-wrapper">
-    <div class="container">
-      <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a href="./"><img src="images/legend176.png" style="height: 50px;" /></a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="./">首页</a></li>
-              <li><a href="stditem.html">物品装备</a></li>
-              <li><a href="log.html">更新日志</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">下载 <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#client">游戏客户端（10周年版本）</a></li>
-                  <li><a href="#logintool">登陆器</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+    <div class="container" style=" margin-bottom: 20px;">
+      <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #e3f2fd;">
+        <a href="./"><img src="images/legend176.png" style="height: 50px;" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="log.html">更新日志</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="stditem">物品装备</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">下载</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown03">
+                <a class="dropdown-item" href="#client">游戏客户端</a>
+                <a class="dropdown-item" href="#logintool">登陆器</a>
+              </div>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>

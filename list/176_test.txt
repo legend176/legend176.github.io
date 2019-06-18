@@ -1,0 +1,32 @@
+[Server]
+���䴫��|չ��=1;
+����|94.191.124.189|7000=legend176.github.io|dun=5555
+TEST|127.0.0.1|7000=legend176.github.io|dun=5555
+
+[Web]
+�ٷ���վ=https://legend176.github.io
+��Ϸ��ֵ=https://legend176.github.io
+��Ϸ��̳=https://legend176.github.io
+���ڹ���=https://legend176.github.io
+[map]
+mir=0
+[Control]
+�࿪����=2
+���ؽ���Ϸ=0
+������ַ=https://legend176.github.io
+���������վ=http://www.HeroM2.com/jiqima.txt
+ɫλ˳��=0
+;ɫλ˳�� 0=800x600  1=1024x768
+ȫ����ͼ=0  ;��1=������0=�رգ�ȫ����ͼ������ײ��޺������޸�������UI������ʵ�ֽ�������Ч����
+�༭��Ϸ=0 ;��¼������Ĺرհ�ť =0�������༭  =1���رյ�¼��
+ˢ���б�=1   ;1��ʾ�ر���Ϸ������¼�����¶�ȡ�б���0��ʾ�����¶�ȡ�б�,Ĭ�ϲ�ˢ��
+
+[PatchUpdate]
+;http://ys-c.ys168.com/609502357/V4tNVTm4T467I268NJV/Wav.rar=Wav.rar
+
+
+[MustUpdate]
+;http://127.0.0.1/Data.rar=Data.rar
+[DlqUpdate]
+;DlqVer=1.01
+;DlqUrl=http://127.0.0.1/game.exe

@@ -29,7 +29,6 @@ DlqUrl =
 
 
 [PatchUpdate]
-http://propgm.cn/176/GUI.rar
 
 
 [Web]

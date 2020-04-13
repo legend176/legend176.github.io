@@ -2,33 +2,29 @@
 <html lang="zh-CN">
   <head>
   <meta charset="utf-8">
-  <title>经典传奇1.76 - 免费公平绿色</title>
+  <title>经典传奇176 - 公平怀旧</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="The HTML5 Homepage">
   <meta name="author" content="Don">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow" />
   <!-- Bootstrap -->
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   <!-- Bootstrap theme -->
-  <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-  <link rel="alternate" hreflang="zh-Hant" href="https://legend176.com/" />
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link rel="alternate" hreflang="zh-Hant" href="https://jdcq176.cn" />
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89858010-1"></script>
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-89858010-1', 'auto');
-  ga('send', 'pageview');
-
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-89858010-1');
   </script>
   <link href="css/carousel.css" rel="stylesheet">
+  <link href="css/docs.css" rel="stylesheet">
   <style>
   .navbar-wrapper {
     position:static;
@@ -37,39 +33,31 @@
   </style>
 </head>
 
-<body>
-  <!-- NAVBAR
-  ================================================== -->
+<body style="font-size: 20px;">
   <div class="navbar-wrapper">
-    <div class="container">
-      <nav class="navbar navbar-inverse navbar-static-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="./">经典传奇</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="./">首页</a></li>
-              <li><a href="http://dev.legend176.com/">新版首页</a></li>
-              <li><a href="stditem.html">物品装备</a></li>
-              <li><a href="log.html">更新日志</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">下载 <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">游戏客户端</a></li>
-                  <li><a href="#">登陆器</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">游戏补丁</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+    <div class="container" style=" margin-bottom: 20px;">
+      <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #e3f2fd;">
+        <a href="./"><img src="images/legend176.png" style="height: 50px;" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="log.html">更新日志</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="stditem">物品装备</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">下载</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown03">
+                <a class="dropdown-item" href="#client">游戏客户端</a>
+                <a class="dropdown-item" href="#logintool">登陆器</a>
+              </div>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>
@@ -78,92 +66,124 @@
 <h2>公告</h2>
 <div style="color:black">
 <ol>
-  <li style="color:red">春节期间双倍经验，活动至大年初三，祝大家春节快乐，多陪家人！</li>
-  <li style="color:blue">本服不作任何宣传，有兴趣的朋友请主动推荐朋友来玩。</li>
-  <li>本程序为个人学习交流用途，不从事任何商业活动。</li>
-  <li>游戏的详细维护日志请查看<a href="log.html">日志</a>。</li>
-  <li>登陆器打不开的，请更新登陆器。更新后还是打不开的，请留言。</li>
-  <li>游戏进入不了，请重启猫和路由器。如果还是有问题，请留言。</li>
-  <li><span style="color:red">免费公平绿色</span>，无GM在线，所有问题可向管理员反馈，请尽可能使用网站留言系统。</li>
+  <li>开放每周五六晚21点的怪物攻城活动，欢迎参与，守卫您的家园。</li>
+  <li>最近更新：<a href="log.html"><span class="badge badge-danger">2019-06-20</span></a>。</li>
+  <li>注册失败的可用全字母账号或者更换一个账号名试试。</li>
+  <li>真爱粉养老怀旧服，喜欢的朋友随时可以进来玩，长久公益，永不收费。</li>
+  <li>没有商业运营，主要靠大家主动宣传。</li>
+  <li>自2016年至2019年已经稳定开放三年多，只要大家不离不弃将继续开放下去。</li>
+  <li><span style="color:green">免费公平绿色</span>，无GM账号，所有问题请邮件联系legend176@qq.com反馈。</li>
+  <li>每周一凌晨5点例行维护。</li>
 </ol>
 </div>
-<em>特别申明：
-<ol>
-  <li>个人娱乐，不从事任何商业活动。</li>
-  <li>无会员，无 GM，全民平等，公平，仿盛大1.76，只为回忆当年之经典，还你 03 年激情网游。</li>
-  <li>不提供找装备服务，由于账号或者密码过于简单或者把账号告诉他人等情况，发生账号丢失装备被盗只给予找回账号！</li>
-  <li>打装备需要时间和耐心的，不要没打一会儿不报就问到底爆不爆，谢谢谅解！</li>
-  <li>个人休闲娱乐，请勿沉溺其中。请多关注真实世界中的亲情和友情。</li>
-  <li>引擎来自 HeroM2，仅限个人学习交流，与任何人无任何利益关系。如有侵犯之处请联系。</li>
-  <li>请大家文明用语，自觉遵守国家法律法规则，不得搞违法国家法律的一切活动，包括黄赌毒等。</li>
-</ol>
-</em>
-<h2>下载</h2>
-<ol>
-  <li>
-      <p>客户端</p>
+<div>
+  <h2>宣传码</h2>
+  <ul>
+    <li>群1：333565738</li>
+    <li>一键加群：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=95ee01472607cae0e3c3092028479c69ff9434d35fc1dbcd0fca694876edb546"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="经典传奇" title="经典传奇"></a></li>
+    <li><img src="./images/jdcq176.cn_post1.png" style=" width: 200px;"/></li>
+  </ul>
+</div>
+<div>
+    <h2>详细介绍</h2>
+    <ol>
+      <li>游戏保留03年的登录背景音乐（BGM），还你当年原汁原味的经典176</li>
+      <li>为了提升游戏乐趣，经验倍数调整为：1-35级10倍，36-39为5倍，40之后为2倍。另外有金币的可在游戏里面的商铺买双倍经验卷轴。</li>
+      <li>无会员，无GM，谁都有机会当第一，全民平等，可玩耐玩性高，带上朋友来玩吧，还你03年激情网游。</li>
+      <li>20级以下可以做别人徒弟，30级以上可以做别人师父，在比奇武术馆里拜师。</li>
+      <li>结婚女方要25级以上，男方要30级以上。</li>
+      <li>物品装备持久为0后会破碎，请大家注意修理！</li>
+      <li>技能书可以从尸王、白野猪等高级怪物身上获得！</li>
+      <li>40级六大重装出处和盛大一致。</li>
+      <li>赤月套可以从赤月获得，祖玛套可以从祖玛以及封魔谷获得，沃玛套产出较多，沃玛寺庙，牛魔洞等均可以获得！</li>
+      <li>可以通过地图栏的排行榜找到朋友！</li>
+      <li>牛魔王暴三神器，大家可以去苍月岛碰碰运气！</li>
+      <li>祖玛教主出产嗜魂法杖，触龙神出产屠龙，祖玛教主之家和死亡棺材大家一定得去看看！</li>
+      <li>祖玛教主和赤月恶魔出特戒，爆率感人，留给有缘人</li>
+      <li>有经典游戏任务：【命运之刃】（有随机属性）、【赤血魔剑】(4-4属性)等。</li>
+      <li>支持内挂，按F12调出，具体使用说明请看内挂帮助。</li>
+    </ol>
+</div>
+<div>
+  <h2>下载</h2>
+  <ol>
+    <li id="client">
+        <p>经典传奇客户端<span class="badge badge-danger">推荐</span></p>
+        <ul>
+          <li>解压点击传奇即可，不需下载登录器：<a href="https://pan.baidu.com/s/1iZ9DSfTOrLAsm2WAWZRvbQ">百度网盘下载</a>。</li>
+          <li>提取码: <code>pkmd </code></li>
+          <li>文件SHA1：<pre>8bf1d3124d2cd0279c1dacb074cc1d61ad5be3a5</pre></li>
+        </ul>
+    </li>
+    <li>
+        <p>原版客户端</p>
+        <ul>
+            <li>热血传奇十周年客户端，需下载登录器：<a title="http://mini-patch.sdo.com/ctorrent/mir2_2_0_1_0_9280_2.torrent" href="http://mini-patch.sdo.com/ctorrent/mir2_2_0_1_0_9280_2.torrent">种子下载</a>｜<a title="http://dlc2.sdo.com/FTP/mir2/20100926/2/mir2_Setup20100926.exe" href="http://dlc2.sdo.com/FTP/mir2/20100926/2/mir2_Setup20100926.exe">FTP下载</a>，请使用下载工具下载。</li>
+            <li>文件SHA1：<pre>2b5a0b596ca053ea373f816bfe54d1e7a5cc2b0f</pre></li>
+        </ul>
+    </li>
+    <li id="logintool">
+      <p>登录器</p>
       <ul>
-          <li>群空间下载（请先加群）：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=c7c75e510ef20e42b66bd2b49d9c8ded70f6dd617e152a7f8d229dcca20fba7c"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="经典传奇" title="经典传奇"></a></li>
-          <li>热血传奇十周年客户端官方下载地址：<a title="http://mini-patch.sdo.com/ctorrent/mir2_2_0_1_0_9280_2.torrent" href="http://mini-patch.sdo.com/ctorrent/mir2_2_0_1_0_9280_2.torrent">种子下载</a>｜<a title="http://dlc2.sdo.com/FTP/mir2/20100926/2/mir2_Setup20100926.exe" href="http://dlc2.sdo.com/FTP/mir2/20100926/2/mir2_Setup20100926.exe">FTP下载</a>｜<a title="http://mir2.sdo.com/10years" href="http://mir2.sdo.com/10years/">官网下载主页</a>，请使用下载工具下载。</li>
-          <li>文件SHA1：<pre>2b5a0b596ca053ea373f816bfe54d1e7a5cc2b0f</pre></li>
+        <li><a href="http://jdcq176.unaux.com/jdcq.zip">下载地址</a></li>
       </ul>
-  </li>
-  <li>
-    <p>登录器</p>
-    <ul>
-      <li><a href="https://pan.baidu.com/s/1dEQ1zXJ">网盘下载（密码：btif）</a></li>
-      <li>更新日期：2016-09-29 v3.13</li>
-    </ul>
-  </li>
-  <li><p>运行平台：Windows XP, Windows 7, Windows 10；</p></li>
-  <li>安装使用说明：首先安装好10周年的游戏客户端，然后下载登陆器放到游戏目录打开，选择游戏服务器，开始游戏。安装之前建议先将360关掉！</li>
-  <li>
-    <p>补丁</p>
-    <ul>
-      <li><a href="https://pan.baidu.com/s/1mh8Cl1A">网盘下载</a></li>
-      <li>SHA1:<pre>d2fdafad17e0d001e18a7542e01ef7a8e9027306</pre></li>
-      <li>说明：主要为了解决宽屏下显示不正常的问题。此补丁一般不需要手动下载，在登陆器打开的时候会自动下载更新。</li>
-      <li>安装方法：如果自动下载更新失败，手动下载并解压，将解压的 data 目录复制到游戏客户端根目录，提示合并或覆盖时选择是即可。</li>
-    </ul>
-  </li>
-</ol>
+    </li>
+    <li><p>运行平台：Windows XP, Windows 7, Windows 10；</p></li>
+    <li>安装使用说明：首先安装好10周年的游戏客户端，然后下载登陆器放到游戏目录打开，选择游戏服务器，开始游戏。安装之前建议先将360关掉！</li>
+    <li>
+      <p>补丁</p>
+      <ul>
+        <li><a href="https://pan.baidu.com/s/1mh8Cl1A">网盘下载</a></li>
+        <li>SHA1:<pre>d2fdafad17e0d001e18a7542e01ef7a8e9027306</pre></li>
+        <li>说明：此补丁一般不需要手动下载，在登陆器打开的时候会自动下载更新。主要为了解决宽屏下显示不正常的问题。</li>
+        <li>安装方法：如果自动下载更新失败，手动下载并解压，将解压的 data 目录复制到游戏客户端根目录，提示合并或覆盖时选择是即可。</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+<div class="bd-callout bd-callout-warning">
+  <h4>特别申明：</h4>
+  <ol>
+    <li>个人娱乐，不从事任何商业活动。</li>
+    <li>无会员，无 GM，全民平等，公平，仿盛大，只为回忆当年之经典，还你 03 年激情网游。</li>
+    <li>不提供找装备服务，由于账号或者密码过于简单或者把账号告诉他人等情况，发生账号丢失装备被盗只给予找回账号！</li>
+    <li>打装备需要时间和耐心的，不要没打一会儿不报就问到底爆不爆，谢谢谅解！</li>
+    <li>个人休闲娱乐，请勿沉溺其中。请多关注真实世界中的亲情和友情。</li>
+    <li>引擎来自第三方，仅限个人学习交流，与任何人无任何利益关系。如有侵犯之处请联系。</li>
+    <li>请大家文明用语，自觉遵守国家法律法规则，不得搞违法国家法律的一切活动，包括黄赌毒等。</li>
+  </ol>
+</div>
 <h2>更新日志</h2>
 <p><a href="log.html">去查看</a></p>
-<h2>详细介绍</h2>
-<ol>
-  <li>为了提升游戏乐趣，经验倍数调整为：1-35级10倍，36-39为5倍，40之后为2倍。</li>
-  <li>无会员，无GM，谁都有机会当第一，全民平等，可玩耐玩性高，带上朋友来玩吧，还你03年激情网游。</li>
-  <li>20级以下可以做别人徒弟，30级以上可以做别人师父，在比奇武术馆里拜师。</li>
-  <li>结婚女方要25级以上，男方要30级以上。</li>
-  <li>物品装备持久为0后会破碎，请大家注意修理！</li>
-  <li>技能书可以从尸王、白野猪等高级怪物身上获得！</li>
-  <li>40级六大重装出处和盛大一致。</li>
-  <li>赤月套可以从赤月获得，祖玛套可以从祖玛以及封魔谷获得，沃玛套产出较多，沃玛寺庙，牛魔洞等均可以获得！</li>
-  <li>可以通过地图栏的排行榜找到朋友！</li>
-  <li>牛魔王暴三神器，黄泉教主暴荣誉勋章，大家可以去苍月岛碰碰运气！</li>
-  <li>祖玛教主出产嗜魂法杖，触龙神出产屠龙，祖玛教主之家和死亡棺材大家一定得去看看！</li>
-</ol>
 <h2>游戏资料</h2>
 <p><a href="zb.htm">去查看</a></p>
 <h2>联系方式</h2>
-<p>本程序仅限内部学习交流！</p>
+<p><a href="mailto:legend176@qq.com">点击发送邮件</a></p>
 <h2>常见问题</h2>
 <p><a href="faq.html">遇到问题请先看这里</a></p>
-<h2>其他</h2>
-<p>
-<pre>
-遥忆昔日传奇梦，剑影刀光杀气浓。
-兄弟情深悲欢共，夫妻恩爱生死同。
-杀猫逐鹿出新村，斩妖除魔入盟重。
-近观绿涛汇碧海，远眺青山有苍松。
-</pre>
-</p>
+<div>
+  <h2>其他</h2>
+  
+  <pre>
+  遥忆昔日传奇梦，剑影刀光杀气浓。
+  兄弟情深悲欢共，夫妻恩爱生死同。
+  杀猫逐鹿出新村，斩妖除魔入盟重。
+  近观绿涛汇碧海，远眺青山有苍松。
+  </pre>
+
 <p>
 将以前的大作拿到现在对新的用户是毫无吸引的，经典之所以为经典，就因为它只属于那个年代、那代人。把十几二十年前的经典生硬的套上现如今的价值观，下场不会好到哪去，反倒会让现在的一代人唏嘘所谓的经典不过如此。前车之鉴如毁灭公爵，红色警戒，暗黑破坏神等等，那个年代的独树一帜，到如今只是平平无奇，甚至是挫劣。</p>
-<p>综上所述，此游戏仅用于怀念经典，个人兴趣爱好，欢迎有相同爱好之人一起游戏。
-</p>
-<h3>留言</h3>
-<p>请到<a href="kf.htm">留言页面</a>给我们留言。</p>
+<p>综上所述，此游戏仅用于怀念经典，个人兴趣爱好，欢迎有相同爱好之人一起游戏。</p>
+<p class="pull-right"><a href="#">回顶部</a></p>
+</div>
+<div>
+  <footer class="page-footer font-small blue">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2016-2019 
+      <a href="."> 经典传奇</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 </div>
 </body>
 </html>

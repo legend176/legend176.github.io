@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+  <meta charset="utf-8">
+  <title>经典传奇 - 公平怀旧</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="The HTML5 Homepage">
+  <meta name="author" content="Don">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap theme -->
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link rel="alternate" hreflang="zh-Hant" href="https://jdcq176.cn" />
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="css/carousel.css" rel="stylesheet">
+  <link href="css/docs.css" rel="stylesheet">
+  <style>
+  .navbar-wrapper {
+    position:static;
+    margin-top: 20px;
+  }
+  .list {
+    background-color:transparent;
+    padding: 1px 4px;
+    border: 1px dotted #DABD79;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  </style>
+</head>
+
+<body style="background: #221e1a; color: #A59E92; padding-bottom: 2px;">
+  <div class="list-group" style="padding: 10px 8px;">
+      <a href="#" class="list-group-item list-group-item-action list" style="color: yellow;">经典传奇176：四月新区<span class="badge badge-danger">火热测试</span>，<span class="badge badge-success">即将开放</span></a>
+      <a href="https://mp.weixin.qq.com/s/YXIQPgfU2u7P1RAt6DFiyw" class="list-group-item list-group-item-action list-group-item-dark list" style="color:lightgoldenrodyellow;">点击关注公众号有奖，祝大家身体健康</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-warning list" style="color: green;">完美复古，极品+4，无幻境，封挂，三职业平衡，延续经典</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-primary list" style="color:deepskyblue;" >完美仿盛大，永久免费，还原2003年激情，绝对公平、公正、公开</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-secondary list" style="color:crimson;">经验倍数:20级前20倍，20-29级10倍，30-40级6倍，40及以上4倍</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-success list" style="color: aquamarine;">所有装备均靠打，摆摊可查装备出处，网站开放暴率查询</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-warning list" style="color: burlywood;">长期服，不管有多少玩家都会长期开放，每月新区开放</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-info list" style="color: hotpink">独家版本，始于2016，多年品牌，公平怀旧，稳定长久</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-light list" style="color:royalblue">不得搞违法国家法律的一切活动，包括黄赌毒等</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-light list" style="color:royalblue">严格查封一切加速外挂，管理不定时巡逻，请爱护自己的账号</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-light list" style="color:royalblue">本服无GM或管理参与干预游戏，GM只负责外挂巡逻，谨防上当受骗</a>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="myModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">防脱机验证码</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="align:center;">
+              <img class="center" id="foo" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button id="showWxCodebtn" type="button" class="btn btn-info float-right" style="position: fixed; bottom: 0px; left: 0px;">关注公众号有奖</button>
+    <button id="showCodebtn" type="button" class="btn btn-danger float-right" style="position: fixed; bottom: 0px; right: 0px;">点我加官方QQ群</button>
+    <iframe name="qqGroupFrame" style="display:none"></iframe>
+<script type="text/javascript">
+$("#showCodebtn").click(function(){
+  window.open("https://jq.qq.com/?_wv=1027&k=5oVhsKn", "qqGroupFrame");
+});
+$("#showWxCodebtn").click(function(){
+  window.open("https://mp.weixin.qq.com/s/YXIQPgfU2u7P1RAt6DFiyw");
+});
+</script>
+</body>
+</html>
